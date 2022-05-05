@@ -1,0 +1,84 @@
+html,body{
+    height: 100%;
+}
+
+body{
+
+    background-color:#f0ab90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+
+.todo{
+        display:grid;
+        width:500px;
+        height: 1000px;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: #e8edcc;
+        padding: 10px;text-align: center;
+        font-size: 20px;
+     
+}
+li {
+    position: relative;
+    list-style: none;
+}
+
+#addBtn{
+    width: 40px;
+    height: 40px;
+    border:1px solid #f0ab90;
+    background-color: transparent;
+}
+input[type=text]{
+
+    border:1px solid #f0ab90;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.test{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#f0ab90;
+}
+.test:hover{
+    background-color: #cfe3a6;
+}
+.z{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color:#f0ab90;
+}
+.z:hover{
+    background-color: #cfe3a6;
+}
+.list {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
